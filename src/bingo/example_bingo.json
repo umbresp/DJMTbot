@@ -1,0 +1,196 @@
+{
+  "bingoLists": [
+    {
+      "dataList": {
+        "rawPrompts": [
+          "Get 3 Bingos or more",
+          "Get a field perpendicular to this one",
+          "Get a field diagonal to this one",
+          "Unobtainable field. Good Luck >:3",
+          "Bonus Free Space!"
+        ],
+        "name": "Meta",
+        "color": "#cc0000"
+      },
+      "min": 1,
+      "max": 1
+    },
+    {
+      "dataList": {
+        "rawPrompts": [
+          "A",
+          "A# / Bb",
+          "B",
+          "C",
+          "C# / Db",
+          "D",
+          "D# / Eb",
+          "E",
+          "F",
+          "F# / Gb",
+          "G",
+          "G# / Ab"
+        ],
+        "name": "Chord",
+        "color": "#006600"
+      },
+      "min": 0,
+      "max": 0
+    },
+    {
+      "dataLists": [
+        {
+          "rawPrompts": [
+            "Aeolian",
+            "Locrian",
+            "Ionian",
+            "Dorian",
+            "Phrygian",
+            "Lydian",
+            "Mixolydian"
+          ],
+          "name": "Mode",
+          "color": "#ff6600"
+        },
+        {
+          "rawPrompts": [
+            "Whole Tone",
+            "Diminished",
+            "Pentatonic",
+            "Blues",
+            "Chromatic",
+            "Hungarian Minor",
+            "Ukrainian Dorian",
+            "Phrygian Dominant"
+          ],
+          "name": "Scale",
+          "color": "#cc6600"
+        }
+      ],
+      "min": 0,
+      "max": 0
+    },
+    {
+      "dataList": {
+        "rawPrompts": [
+          "Augmented",
+          "Diminished",
+          "Major 7th",
+          "Half Diminished",
+          "Minor",
+          "Major",
+          "Minor 7th",
+          "Sus2",
+          "Sus4"
+        ],
+        "name": "",
+        "color": "#993300"
+      },
+      "min": 0,
+      "max": 0
+    },
+    {
+      "dataList": {
+        "rawPrompts": [
+          "Chromaticism",
+          "Counterpoint",
+          "Hocket",
+          "Microtonal",
+          "Palindrome"
+        ],
+        "name": "Tech",
+        "color": "#993366"
+      },
+      "min": 0,
+      "max": 0
+    },
+    {
+      "dataList": {
+        "rawPrompts": [
+          "Breakbeat",
+          "Chiptune",
+          "Dubstep",
+          "Hardcore",
+          "Jazz",
+          "Orchestral",
+          "Rock",
+          "Polka"
+        ],
+        "name": "Genre",
+        "color": "#9966ff"
+      },
+      "min": 0,
+      "max": 2
+    },
+    {
+      "dataList": {
+        "rawPrompts": [
+          "210 BPM or more",
+          "6 minutes or longer",
+          "85 BPM or less",
+          "Binaural Beats",
+          "Four on the floor",
+          "haha bass go brrr",
+          "I can't believe its actually 4/4",
+          "II-V-I",
+          "Key/Mode change",
+          "Live recorded instrument",
+          "Location Theme",
+          "Lyrics",
+          "Medley",
+          "Memes",
+          "Multichannel Midi only",
+          "No instrument playing for at least 4 bars",
+          "Non-diatonic chord progression",
+          "Original song",
+          "Pokemon Soundfont",
+          "Solo section",
+          "Sound Design",
+          "Swing rhythm",
+          "Tearjerker",
+          "Tempo Change",
+          "The Lick",
+          "Three or more different genres at the same time",
+          "Unusual time signature",
+          "VI-VII-I",
+          "Why do I hear boss music?",
+          "Axis Progression (I-V-VI-IV 4 chord loop, any order allowed)",
+          "Nepotean Chord",
+          "Character Theme"
+        ],
+        "name": "",
+        "color": "#000000"
+      },
+      "min": 0,
+      "max": -1
+    },
+    {
+      "dataList": {
+        "rawPrompts": [
+          "Main Series Pokemon",
+          "Non-PMD spin-off",
+          "Non-Pokemon",
+          "PMD"
+        ],
+        "name": "Cover",
+        "color": "#00cc99"
+      },
+      "min": 0,
+      "max": -1
+    },
+    {
+      "dataList": {
+        "rawPrompts": [
+          "bird song",
+          "Field recordings, ambience or animal sounds",
+          "Pokemon cries",
+          "Pokemon sfx"
+        ],
+        "name": "Sample",
+        "color": "#0099cc"
+      },
+      "min": 0,
+      "max": -1
+    }
+  ]
+}

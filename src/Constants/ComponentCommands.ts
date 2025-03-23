@@ -44,4 +44,8 @@ export enum ComponentCommands {
     SET_NEW_USER_BAN_THRESHOLD_IN_DAYS = "set-new-user-ban-threshold",
     TOGGLE_EVERYONE_SPAM_TIMEOUT = "toggle-everyone-spam-timeout",
     SET_EVERYONE_SPAM_TIMEOUT_ROLES = "set-everyone-spam-timeout-roles",
+    GET_BINGO = "bingo",
+    RESET_BINGO = "resetbingo",
+    UPDATE_BINGO_CONFIG = "updatebingoconfig",
+    GET_BINGO_CONFIG = "getbingoconfig",
 }

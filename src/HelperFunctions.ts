@@ -15,6 +15,13 @@ export function getGuildMembersRoles(member: GuildMember): Role[] {
     return member.roles.cache.map((role) => role);
 }
 
+export function doesGuildMemberHasRole(member: GuildMember, roleName: string): boolean {
+    if (!("roles" in member)) return false;
+
+    const role = getGuildMembersRoles(member).find(r => r.name === roleName);
+    return (role !== undefined);
+}
+
 export function getCensoredMessageReplyOptions(message: Message): MessageReplyOptions {
     return {
         content: message.content.length > 0 ? `||${message.content}||` : undefined,
@@ -63,6 +70,14 @@ export function mapKeys<T, V, U>(m: Map<T, V>, fn: (this: void, v: V) => U): Map
         return [k, fn(v)]
     }
     return new Map(Array.from(m.entries(), transformPair));
+}
+
+export function shuffleArray<T>(array: T[]): T[] {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
 }
 
 export function JSONStringifyReplacer(key: any, value: any) {
